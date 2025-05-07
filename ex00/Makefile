@@ -1,10 +1,10 @@
-CPP = cc++
+CPP = c++
 
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
 TARGET = btc
 
-SRCS = main.cpp BitcoinEchange.hpp
+SRCS = main.cpp BitcoinExchange.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 

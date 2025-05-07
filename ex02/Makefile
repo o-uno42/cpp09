@@ -1,10 +1,10 @@
-CPP = cc++
+CPP = c++
 
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
 TARGET = PmergeMe
 
-SRCS = main.cpp
+SRCS = main.cpp PmergeMe.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
